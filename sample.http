@@ -1,0 +1,9 @@
+POST http://localhost:5000/send-email 
+Content-Type: application/json
+
+{
+    "from": "alisher", 
+    "to": "tim", 
+    "subject": "hello from Bull", 
+    "message": "Hi there"
+}
